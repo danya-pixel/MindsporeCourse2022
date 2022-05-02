@@ -1,0 +1,12 @@
+op_side,op_type,op_name,full_op_name,op_occurrences,op_total_time(ms),op_avg_time(ms),total_proportion,subgraph,pid
+Host,MatMul,MatMul-op34,Gradients/Default/network-WithLossCell/_backbone-LinearNet/fc-Dense/gradMatMul/MatMul-op34,100,0.662869,0.00662869,0.0328253,Default,137570
+Host,ApplyMomentum,ApplyMomentum-op38,Default/optimizer-Momentum/ApplyMomentum-op38,100,0.085266,0.00085266,0.00422237,Default,137570
+Host,Mul,Mul-op32,Gradients/Default/network-WithLossCell/_loss_fn-MSELoss/gradSquare/Mul-op32,100,3.30856,0.0330856,0.16384,Default,137570
+Host,ApplyMomentum,ApplyMomentum-op37,Default/optimizer-Momentum/ApplyMomentum-op37,100,0.123013,0.00123013,0.0060916,Default,137570
+Host,Square,Square-op31,Default/network-WithLossCell/_loss_fn-MSELoss/Square-op31,100,3.90726,0.0390726,0.193488,Default,137570
+Host,Sub,Sub-op30,Default/network-WithLossCell/_loss_fn-MSELoss/Sub-op30,100,3.39315,0.0339315,0.168028,Default,137570
+Host,ReduceMean,ReduceMean-op33,Default/network-WithLossCell/_loss_fn-MSELoss/ReduceMean-op33,100,0.406153,0.00406153,0.0201127,Default,137570
+Host,BiasAdd,BiasAdd-op29,Default/network-WithLossCell/_backbone-LinearNet/fc-Dense/BiasAdd-op29,100,5.0888,0.050888,0.251997,Default,137570
+Host,BiasAddGrad,BiasAddGrad-op35,Gradients/Default/network-WithLossCell/_backbone-LinearNet/fc-Dense/gradBiasAdd/BiasAddGrad-op35,100,0.190889,0.00190889,0.00945282,Default,137570
+Host,MatMul,MatMul-op28,Default/network-WithLossCell/_backbone-LinearNet/fc-Dense/MatMul-op28,100,2.63058,0.0263058,0.130266,Default,137570
+Host,AssignAdd,AssignAdd-op36,Default/optimizer-Momentum/AssignAdd-op36,100,0.397326,0.00397326,0.0196756,Default,137570
